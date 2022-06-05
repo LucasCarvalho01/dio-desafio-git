@@ -1,2 +1,6 @@
 # dio-desafio-git
-Repositório para envio de desafio sobre Git/GitHub da dio.me
+
+## Repositório criado para guardar estudos e documentações de acordo com o que será visto no bootacamp da DIO.
+
+### Links Úteis
+ - [Tags principais Markdown](https://www.markdownguide.org/basic-syntax/)
