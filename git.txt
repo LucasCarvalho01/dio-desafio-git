@@ -1,0 +1,17 @@
+git init
+	- inicializa repositório local
+
+git add
+	- faz track dos arquivos e os adiciona a stage area
+
+git commit -m 'mensagem'
+	- commita os arquivos que estavam na stage area, ou seja, tira um snapshot dos arquivos
+
+git remote add <apelido> <link>
+	- adiciona um reposiroio remoto ao repositorio local com um apelido para ele, o principal por padrão é origin
+
+git push origin
+	- "empurra" os commits para o repositório remoto.
+
+git pull origin
+	- puxa as atualizações que foram feitas no repositorio remoto.
