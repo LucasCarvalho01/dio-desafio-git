@@ -3,6 +3,11 @@ git init
 
 git add
 	- faz track dos arquivos e os adiciona a stage area
+		git add *.txt -> adciona todos arquivos formato txt
+		git add . -> adiciona todos os arquivos do repositorio nao trackeados ou modificados
+
+git status
+	- vê o estado atual do repositório
 
 git commit -m 'mensagem'
 	- commita os arquivos que estavam na stage area, ou seja, tira um snapshot dos arquivos
@@ -10,8 +15,9 @@ git commit -m 'mensagem'
 git remote add <apelido> <link>
 	- adiciona um reposiroio remoto ao repositorio local com um apelido para ele, o principal por padrão é origin
 
-git push origin
+git push origin <branch>
 	- "empurra" os commits para o repositório remoto.
+		git push -u origin main -> empura a branch main para o repositorio remoto 'origin'. -u faz com que o git lembre esses atributos e na próxima vez, um git push bastará
 
 git pull origin
 	- puxa as atualizações que foram feitas no repositorio remoto.
